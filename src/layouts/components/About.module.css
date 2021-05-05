@@ -1,0 +1,79 @@
+/* About */
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: center;
+  max-width: 100vw;
+}
+
+.aboutPhoto {
+  margin-bottom: -4px;
+}
+
+.aboutPhoto img {
+  max-height: 50em;
+  margin: 0;
+}
+
+.aboutText {
+  margin: 1em 1em;
+}
+
+.aboutText h2,
+.aboutText h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+.aboutText h2 {
+  margin: 0 0 .5em;
+}
+
+.aboutText h4 {
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: .75em;
+}
+
+.aboutText > h4:last-child {
+  margin-bottom: 0;
+}
+
+.techStack h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: .75em 0 0;
+  margin: 0;
+}
+
+.techStack h4 {
+  margin-bottom: 0;
+}
+
+/* wide screen */
+
+@media only screen and (min-width: 700px) {
+  .about {
+    padding: 0 10em;
+  }
+  .aboutMeContainer {
+    padding: 1.5em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .aboutPhoto {
+    align-self: center;
+  }
+  .aboutText {
+    padding: 0 0 0 2em;
+    margin: 0;
+    line-height: 2;
+  }
+}

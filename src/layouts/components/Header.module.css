@@ -1,0 +1,127 @@
+.header {
+  padding: 0 1em;
+  z-index: 8001;
+
+  background: rgb(20, 156, 197);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgb(35, 32, 211) 0%,
+    rgb(64, 99, 155) 28%,
+    rgb(72, 177, 247) 86%,
+    rgb(64, 171, 221) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, rgb(42, 91, 206)),
+    color-stop(28%, rgb(39, 68, 231)),
+    color-stop(86%, rgb(72, 89, 247)),
+    color-stop(100%, rgb(72, 84, 247))
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgb(35, 32, 211) 0%,
+    rgb(64, 99, 155) 28%,
+    rgb(72, 177, 247) 86%,
+    rgb(64, 171, 221) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgb(35, 32, 211) 0%,
+    rgb(64, 99, 155) 28%,
+    rgb(72, 177, 247) 86%,
+    rgb(64, 171, 221) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgb(35, 32, 211) 0%,
+    rgb(64, 99, 155) 28%,
+    rgb(72, 177, 247) 86%,
+    rgb(64, 171, 221) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgb(35, 32, 211) 0%,
+    rgb(64, 99, 155) 28%,
+    rgb(72, 177, 247) 86%,
+    rgb(64, 171, 221) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', endColorstr='#f7484e', GradientType=1 );
+}
+
+@media only screen and (min-width: 700px) {
+  .header {
+    padding: 0 10em;
+  }
+}
+
+.titleNavWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 2em 0 1.25em;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.nameContainer {
+  display: flex;
+}
+
+.siteTitle {
+  font-family: 'Poiret One', cursive;
+  letter-spacing: 1.75px;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.siteTitle a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+  padding: 0;
+  margin: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.siteTitle a:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+.desktopNav {
+  display: flex;
+  align-items: center;
+}
+
+.mainNav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: 'Poiret One', cursive;
+  margin: 0;
+}
+
+.mainNav ul li {
+  letter-spacing: 1.75px;
+  font-weight: bold;
+  font-size: 19px;
+  display: inline-block;
+  text-align: right;
+  margin: 0 0 .5em 1em;
+  transition: all 0.2s ease-in-out;
+}
+
+.mainNav ul li:last-child {
+  margin: 0 0 0 1em;
+}
+
+.mainNav ul li:hover {
+  transform: scale(1.1);
+}
+
+.mainNav ul li a {
+  text-decoration: none;
+  color: #fff;
+}

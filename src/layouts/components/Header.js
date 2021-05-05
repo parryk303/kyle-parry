@@ -66,7 +66,7 @@ const Header = () => (
                 </a>
               </li>
               <li>
-                <a href="mailto:nrlaureano@gmail.com?subject=HELLO!">
+                <a href="mailto:kyle.parry.303@gmail.com?subject=HELLO!">
                   CONTACT
                 </a>
               </li>

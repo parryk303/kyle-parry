@@ -8,6 +8,7 @@ import {
   cu,
   hr,
   rl,
+  tl,
   unc,
   hps,
   mt,
@@ -17,6 +18,7 @@ import {
   KeystoneLodgeSpa,
   browserImg,
   diplomaImg,
+  hrCert,
 } from '../images/resume'
 
 import { chevronWhite } from '../images'
@@ -70,6 +72,7 @@ const ResumeItem = props => {
               <ul>
                 {props.descriptions &&
                   props.descriptions.map(description => <li>{description}</li>)}
+                <img src={props.certs} />
               </ul>
             </div>
           </div>
@@ -96,41 +99,36 @@ export default () => (
       <div className={styles.cdTimelineContainer}>
 
         <ResumeItem
-          id="FullstackTF"
-          companyName="Hack Reactor"
-          jobTitle="Software Engineering Student"
-          department="Boulder Campus"
-          group="Software Engineering Immersive"
+          id="hr"
+          jobTitle="Galvanize Hack Reactor"
+          department="Software Engineering Student"
           dates="Oct 2020 - Feb 2021"
-          descriptions={[
-            'Mentored 35 students on development concepts, algorithms, debugging strategies, software architecture and clean code structure',
-            'Conducted technical interviews for applicants',
-            'Led interactive reviews for students to solidify material ',
-            'Directed team building exercises to strengthen class cohesion and community',
-          ]}
-          siteUrl="https://www.fullstackacademy.com/"
+          descriptions={[]}
           logo={hr}
+          certs={hrCert}
           timelineIcon={browserImg}
         />
 
         <ResumeItem
-          id="MizuhoRM"
+          id="ksrs"
           companyName="Vail Resorts"
           jobTitle="Ski Instructor"
           department="Keystone"
           dates="Nov 2010 - Apil 2021"
           descriptions={[
-            'Customized private lessons for families around the world, Trained incoming new-hire instructors',
-            'Ranked #1 in instructor priority list for Keystone Resort, drove company value for product offered',
-            'Continued development throughout career attaining certifications from Professional Ski Instructors of America: Alpine Level 2, Snowboard Level 1, Freestyle Specialist Level 1, Children’s Specialist 2'
+            'Ranked #1 in instructor priority list for Keystone Resort driving company value',
+            'Customized private lessons for families around the world',
+            'Trainer and mentor for new hire instructors',
+            'Led monthly meetings focused on safety, guest satisfaction and class progressions',
+            'Led clinics focused on freestyle progressions and child centered instruction',
+            'Certified by the Professional Ski Instructors of America: Alpine Level 2, Snowboard Level 1, Freestyle Specialist Level 1, Children’s Specialist 2',
           ]}
-          siteUrl="https://map-it-fsa.firebaseapp.com/"
           logo={keystone}
           timelineIcon={mt}
         />
 
         <ResumeItem
-          id="MizuhoPMDS"
+          id="hps"
           companyName="Eagle County School District"
           jobTitle="Teacher"
           department="Homestake Peak School"
@@ -141,23 +139,18 @@ export default () => (
             'Planed lessons using Bridges and Benchmark curricula for Math and Literacy',
             'Provided differentiated support for ELL students and students with IEPs in all content areas',
           ]}
-          siteUrl="https://saucesome-fsa.herokuapp.com/"
           logo={hps}
           timelineIcon={school}
         />
 
         <ResumeItem
-          id="UNC"
-          companyName=""
-          jobTitle="Master of Teaching"
-          department="University of Northern Colorado"
+          id="unc"
+          jobTitle="University of Northern Colorado"
+          department="Master of Arts in Teaching"
           dates="May 2017 - June 2018"
-          descriptions={[
-            'Immersive Masters of Teaching program',
-            'Student teaching at Silverthorne Elementary',
-          ]}
-          siteUrl="https://symbalplayer.firebaseapp.com/"
+          descriptions={[]}
           logo={unc}
+          certs={tl}
           timelineIcon={diplomaImg}
         />
 
@@ -168,35 +161,43 @@ export default () => (
           department="Keystone Lodge and Spa"
           dates="May 2016 - June 2018"
           descriptions={[
-            'Checked in geusts',
-            'Lead training in use of Vail Resorts internal reservation management systems for new-hire front desk agents',
+            'Lead training in use of Vail Resorts internal lodging management systems for new-hire front desk agents',
+            'Responsible for maintaining high quality AAA four diamond check in/check out procedures',
+            'Coordinated guests needs with other company and resort departments',
+            'Fielded tax-exemption related questions, restaurant and activity recomendations and all manner of resort queries all while maintaining a professional and friendly demeanor',
+            'Completed Vail Resorts Leadership Essentials course',
           ]}
-          siteUrl="https://symbalplayer.firebaseapp.com/"
           logo={KeystoneLodgeSpa}
           timelineIcon={mt}
         />
 
         <ResumeItem
-          id="RL"
+          id="rl"
           companyName="Ralph Lauren"
           jobTitle="Sales Assosiate"
-          department="Silverthorne"
-          group="Store 227"
+          department="Silverthorne Store 227"
           dates="Nov 2010 - May 2016"
           descriptions={[
-            'Sold clothing',
+            'Utilized retail and customer service experience while expanding leadership experience',
+            'Responsible for assisting the manager by leading other associates on the floor and closing or opening registers',
+            'Worked with an international clientele of tourists traveling from all over the world',
+            'Many of our customers traveled from Mexico, Brazil, Australia and Japan to ski in Colorado',
           ]}
           logo={rl}
           timelineIcon={shop}
         />
 
         <ResumeItem
-          id="CU"
-          companyName="New York University"
-          jobTitle="Bachelor of Arts"
-          department="History and Japanese"
+          id="cu"
+          jobTitle="University of Colorado at Boulder"
+          department="Bachelor of Arts in History and Japanese"
           dates="August 2006 - May 2010"
-          descriptions={['ISV Equador, Australia, Croatia']}
+          descriptions={[
+            'Volunteered with the International Student Volunteers in Ecuador, Australia and Croatia',
+            'Croatia: Fostered peaceful relations between Serbians and Croatians via community development in war torn communities. Led camp activities with children: soccer, baseball, basketball, movie nights',
+            'Australia: Educated a coal mining community about ecological issues via trail construction and tree planting. Volunteered at Carnarvon National Park building trails and constructing river crossings',
+            'Ecuador: Taught English to local children ages 6 to 13. Maintained biological reserve in the Amazon rainforest, planting trees, patrolling for poachers',
+          ]}
           logo={cu}
           timelineIcon={diplomaImg}
         />

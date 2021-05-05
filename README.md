@@ -10,7 +10,6 @@ npm install
 ```
 npm run develop
 ```
-```
 
 ## Deploy
 

@@ -85,21 +85,12 @@ export default () => (
     </div>
     <div className={styles.projectsContainer}>
       <Project
-        projectname="Breath of Fresh AirBNB"
-        mockup={bofa}
-        excerpt="AirBNB UX emulation deployed to AWS"
-        siteUrl="https://github.com/Breath-of-Fresh-AirBNB/Listing-Details"
-        githubUrl="https://github.com/parryk303/Breath-of-Fresh-AirBNB"
-        techImgs={[reactImg, nodeImg, mongoImg, bootstrapImg, awsImg, dockerImg]}
-      />
-      <hr className={styles.projectHR} />
-      <Project
-        projectname="Coffee Roulette"
-        mockup={cr}
-        excerpt="A promotional coffee randomizer app."
-        siteUrl="https://coffee-roulette-kp.herokuapp.com/"
-        githubUrl="https://github.com/parryk303/Coffee-Roulette"
-        techImgs={[reactImg, nodeImg, postgresqlImg, bootstrapImg, herokuImg]}
+        projectname="Victorian Twitter"
+        mockup={vt}
+        excerpt="A Twitter jQuery emulation with a Victorian Era theme."
+        siteUrl="https://victorian-twitter.herokuapp.com/"
+        githubUrl="https://github.com/parryk303/Victorian-Twitter"
+        techImgs={[ jqueryImg, herokuImg ]}
       />
       <hr className={styles.projectHR} />
       <Project
@@ -112,12 +103,21 @@ export default () => (
       />
       <hr className={styles.projectHR} />
       <Project
-        projectname="Victorian Twitter"
-        mockup={vt}
-        excerpt="A Twitter jQuery emulation with a Victorian Era theme."
-        siteUrl="https://victorian-twitter.herokuapp.com/"
-        githubUrl="https://github.com/parryk303/Victorian-Twitter"
-        techImgs={[ jqueryImg, herokuImg ]}
+        projectname="Coffee Roulette"
+        mockup={cr}
+        excerpt="A promotional coffee randomizer app."
+        siteUrl="https://coffee-roulette-kp.herokuapp.com/"
+        githubUrl="https://github.com/parryk303/Coffee-Roulette"
+        techImgs={[reactImg, nodeImg, postgresqlImg, bootstrapImg, herokuImg]}
+      />
+      <hr className={styles.projectHR} />
+      <Project
+        projectname="Breath of Fresh AirBNB"
+        mockup={bofa}
+        excerpt="AirBNB UX emulation deployed to AWS"
+        siteUrl="https://github.com/Breath-of-Fresh-AirBNB/Listing-Details"
+        githubUrl="https://github.com/parryk303/Breath-of-Fresh-AirBNB"
+        techImgs={[reactImg, nodeImg, mongoImg, bootstrapImg, awsImg, dockerImg]}
       />
     </div>
   </div>

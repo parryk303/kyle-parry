@@ -14,7 +14,7 @@ const About = () => (
       </div>
 
       <div className={styles.aboutText}>
-        <h2>– Hey there! I'm Kyle Parry, a full-stack engineer.</h2>
+        <h2>I'm Kyle Parry, a full-stack engineer.</h2>
         <h4>
           After developing my education skills as a ski instructor and elematry school teacher for several years, the urge to switch contexts and dive further into tech grew too strong to ignore.
         </h4>

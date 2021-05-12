@@ -164,7 +164,7 @@ export default () => (
             'Lead training in use of Vail Resorts internal lodging management systems for new-hire front desk agents',
             'Responsible for maintaining high quality AAA four diamond check in/check out procedures',
             'Coordinated guests needs with other company and resort departments',
-            'Fielded tax-exemption related questions, restaurant and activity recomendations and all manner of resort queries all while maintaining a professional and friendly demeanor',
+            'Fielded tax-exemption related questions, restaurant and activity recommendations and all manner of resort queries all while maintaining a professional and friendly demeanor',
             'Completed Vail Resorts Leadership Essentials course',
           ]}
           logo={KeystoneLodgeSpa}

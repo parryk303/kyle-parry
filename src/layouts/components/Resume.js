@@ -11,6 +11,8 @@ import {
   tl,
   unc,
   hps,
+  aws,
+  awsccpCert,
   mt,
   shop,
   school,
@@ -97,6 +99,16 @@ export default () => (
         <span>tap card for details</span>
       </div>
       <div className={styles.cdTimelineContainer}>
+
+      <ResumeItem
+          id="aws"
+          jobTitle="AWS Certified Cloud Practitioner"
+          dates="May 27, 2021"
+          descriptions={[]}
+          logo={aws}
+          certs={awsccpCert}
+          timelineIcon={browserImg}
+        />
 
         <ResumeItem
           id="hr"

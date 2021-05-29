@@ -13,7 +13,7 @@ const Layout = ({ children, data }) => (
       meta={[
         { property: 'og:title', content: 'Kyle Parry'},
         { property: 'og:description', content: 'Check out my portfolio' },
-        { property: 'og:image', content: 'https://imgur.com/SIuT2fW' },
+        { property: 'og:image', content: '[./preview.png]' },
         { property: 'og:url', content:'https://boring-franklin-f4b385.netlify.app/' }
       ]}
     />

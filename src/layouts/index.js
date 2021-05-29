@@ -9,10 +9,14 @@ import './index.css'
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
-      title="Kyle Parry"
+      title='Kyle Parry'
       meta={[
         { name: 'description', content: 'Check me out' },
+        { name: 'image',  property: 'og:image', content: './preview.png' },
         { name: 'keywords', content: 'kyle parry' },
+        { property: 'og:url', content: 'https://boring-franklin-f4b385.netlify.app/' },
+        { property: 'og:title', content: 'Kyle Parry Portfolio' },
+        { property: 'og:url', content:'https://boring-franklin-f4b385.netlify.app/' }
       ]}
     />
     <Header />

@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import preview from '.preview.png'
 
 import { Header, About, Extra, Projects, Resume, Frame, Footer } from './components'
 
@@ -13,7 +14,7 @@ const Layout = ({ children, data }) => (
       meta={[
         { property: 'og:title', content: 'Kyle Parry'},
         { property: 'og:description', content: 'Check out my portfolio' },
-        { name: 'image', property: 'og:image', content: '%PUBLIC_URL%/preview.png' },
+        { name: 'image', property: 'og:image', content: `http://boring-franklin-f4b385.netlify.app/${preview}` },
         { property: 'og:url', content:'https://boring-franklin-f4b385.netlify.app/' }
       ]}
     />

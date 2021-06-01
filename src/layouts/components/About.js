@@ -22,7 +22,7 @@ const About = () => (
           In July 2020 in the midst of the global pandemic, I left the security and stability I had always known to focus solely on honing and growing my programming skills.
         </h4>
         <h4>
-          My passion for developing is unmatched. Every day I wake up pumped to collaborate, design and code. I love every aspect of bringing an idea to fruition and find each step of the way exciting.
+          I am dedicated to growing stronger as an engineer everyday. I am always looking for new opportunities to hone my skills and learn new ones. I have loved every step of my journey into tech and I’m excited to see who I’ll have the chance to meet next.
         </h4>
 
         <div className={styles.techStack}>

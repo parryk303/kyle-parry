@@ -12,10 +12,8 @@ const Layout = ({ children, data }) => (
     <Helmet
       title='Kyle Parry'
       meta={[
-        { property: 'og:title', content: 'Kyle Parry'},
         { property: 'og:description', content: 'Check out my portfolio' },
-        { name: 'image', property: 'og:image', content: `http://boring-franklin-f4b385.netlify.app/${preview}` },
-        { property: 'og:url', content:'https://boring-franklin-f4b385.netlify.app/' }
+        { name: 'image', property: 'og:image', content: `http://boring-franklin-f4b385.netlify.app/${preview}` }
       ]}
     />
     <Header />

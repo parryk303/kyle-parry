@@ -16,7 +16,7 @@ const About = () => (
       <div className={styles.aboutText}>
         <h2>I'm Kyle Parry, a full-stack engineer.</h2>
         <h4>
-          After developing my education skills as a ski instructor and elematry school teacher for several years, the urge to switch careers and dive further into tech grew too strong to ignore.
+          After developing my education skills as a ski instructor and elementary school teacher for several years, the urge to switch careers and dive further into tech grew too strong to ignore.
         </h4>
         <h4>
           In July 2020 in the midst of the global pandemic, I left the security and stability I had always known to focus solely on honing and growing my programming skills.

@@ -32,7 +32,7 @@ const About = () => (
           </div>
           <div>
             <h3>Back-End</h3>
-            <h4>NodeJS • Express • AWS • Docker • MySQL • PostgreSQL • MySQL • MongoDB</h4>
+            <h4>NodeJS • Express • AWS • Docker • MySQL • PostgreSQL • MongoDB</h4>
           </div>
         </div>
 

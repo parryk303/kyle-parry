@@ -84,10 +84,19 @@ export default () => (
       </a>
     </div>
     <div className={styles.projectsContainer}>
+    <Project
+        projectname="Breath of Fresh AirBNB"
+        mockup={bofa}
+        excerpt="AirBNB UX emulation deployed to AWS"
+        siteUrl="http://3.20.235.237:4000/"
+        githubUrl="https://github.com/parryk303/Breath-of-Fresh-AirBNB"
+        techImgs={[reactImg, nodeImg, mongoImg, bootstrapImg, awsImg, dockerImg]}
+      />
+      <hr className={styles.projectHR} />
       <Project
         projectname="Victorian Twitter"
         mockup={vt}
-        excerpt="A Twitter jQuery emulation with a Victorian Era theme."
+        excerpt="A Twitter jQuery emulation with a Victorian Era theme"
         siteUrl="https://victorian-twitter.herokuapp.com/"
         githubUrl="https://github.com/parryk303/Victorian-Twitter"
         techImgs={[ jqueryImg, herokuImg ]}
@@ -105,19 +114,10 @@ export default () => (
       <Project
         projectname="Coffee Roulette"
         mockup={cr}
-        excerpt="A promotional coffee randomizer app."
+        excerpt="A promotional coffee randomizer app"
         siteUrl="https://coffee-roulette-kp.herokuapp.com/"
         githubUrl="https://github.com/parryk303/Coffee-Roulette"
         techImgs={[reactImg, nodeImg, postgresqlImg, bootstrapImg, herokuImg]}
-      />
-      <hr className={styles.projectHR} />
-      <Project
-        projectname="Breath of Fresh AirBNB"
-        mockup={bofa}
-        excerpt="AirBNB UX emulation deployed to AWS"
-        siteUrl="http://18.219.18.51:3000/#/homes/1"
-        githubUrl="https://github.com/parryk303/Breath-of-Fresh-AirBNB"
-        techImgs={[reactImg, nodeImg, mongoImg, bootstrapImg, awsImg, dockerImg]}
       />
     </div>
   </div>

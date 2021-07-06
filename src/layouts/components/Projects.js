@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import styles from './Projects.module.css'
 import Container from './'
 
-import { vt, cr, ct, bofa } from '../images/projects'
+import { vt, cr, ct, bofa, nf } from '../images/projects'
 
 import { chevronBlack } from '../images'
 
@@ -19,6 +19,10 @@ import {
   awsImg,
   dockerImg,
   jqueryImg,
+  graphQLImg,
+  cassandraImg,
+  datastaxImg,
+  netlifyImg
 } from '../images/tech'
 
 let marginY = 0
@@ -94,12 +98,12 @@ export default () => (
       />
       <hr className={styles.projectHR} />
       <Project
-        projectname="Victorian Twitter"
-        mockup={vt}
-        excerpt="A Twitter jQuery emulation with a Victorian Era theme"
-        siteUrl="https://victorian-twitter.herokuapp.com/"
-        githubUrl="https://github.com/parryk303/Victorian-Twitter"
-        techImgs={[ jqueryImg, herokuImg ]}
+        projectname="Notflix"
+        mockup={nf}
+        excerpt="A Netflix clone built using a GraphQL API via Datastax AstraDB"
+        siteUrl="https://optimistic-lumiere-93306f.netlify.app/"
+        githubUrl="https://github.com/parryk303/netflix-clone"
+        techImgs={[reactImg, nodeImg, graphQLImg, cassandraImg, datastaxImg, netlifyImg]}
       />
       <hr className={styles.projectHR} />
       <Project
@@ -109,6 +113,15 @@ export default () => (
         siteUrl="https://crypto-tracker-tool.herokuapp.com/"
         githubUrl="https://github.com/parryk303/Crypto-Tracker-Tool"
         techImgs={[reactImg, nodeImg]}
+      />
+      <hr className={styles.projectHR} />
+      <Project
+        projectname="Victorian Twitter"
+        mockup={vt}
+        excerpt="A Twitter jQuery emulation with a Victorian Era theme"
+        siteUrl="https://victorian-twitter.herokuapp.com/"
+        githubUrl="https://github.com/parryk303/Victorian-Twitter"
+        techImgs={[ jqueryImg, herokuImg ]}
       />
       <hr className={styles.projectHR} />
       <Project

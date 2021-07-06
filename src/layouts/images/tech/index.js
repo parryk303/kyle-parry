@@ -17,3 +17,8 @@ export { default as mongoImg } from './mongo.png'
 export { default as awsImg } from './aws.png'
 export { default as dockerImg } from './docker.png'
 export { default as jqueryImg } from './jquery.png'
+export { default as graphQLImg } from './graphQL.png'
+export { default as cassandraImg } from './cassandra.png'
+export { default as datastaxImg } from './datastax.png'
+export { default as netlifyImg } from './netlify.png'
+

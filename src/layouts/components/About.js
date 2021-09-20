@@ -14,7 +14,7 @@ const About = () => (
       </div>
 
       <div className={styles.aboutText}>
-        <h2>I'm Kyle Parry, a full-stack engineer.</h2>
+        <h2>I'm Kyle Parry, a teacher turned full-stack engineer.</h2>
         <h4>
           After developing my education skills as a ski instructor and elementary school teacher for several years, the urge to switch careers and dive further into tech grew too strong to ignore.
         </h4>
@@ -28,11 +28,11 @@ const About = () => (
         <div className={styles.techStack}>
           <div>
             <h3>Front-End</h3>
-            <h4>JavaScript • ReactJS • Redux • HTML5 • CSS3 • Bootstrap • Gatsby</h4>
+            <h4>JavaScript • React • Redux • HTML5 • CSS3 • Bootstrap • Material-UI • Gatsby</h4>
           </div>
           <div>
             <h3>Back-End</h3>
-            <h4>NodeJS • Express • AWS • Docker • MySQL • PostgreSQL • MongoDB</h4>
+            <h4>Node • Express • Docker • MySQL • PostgreSQL • GraphQL • MongoDB • AWS </h4>
           </div>
         </div>
 

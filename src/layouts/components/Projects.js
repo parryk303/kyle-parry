@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import styles from './Projects.module.css'
 import Container from './'
 
-import { vt, cr, ct, bofa, nf } from '../images/projects'
+import { vt, cr, ct, bofa, nf, jt } from '../images/projects'
 
 import { chevronBlack } from '../images'
 
@@ -22,7 +22,11 @@ import {
   graphQLImg,
   cassandraImg,
   datastaxImg,
-  netlifyImg
+  netlifyImg,
+  muiImg,
+  javaImg,
+  springImg,
+  mysqlImg,
 } from '../images/tech'
 
 let marginY = 0
@@ -88,7 +92,16 @@ export default () => (
       </a>
     </div>
     <div className={styles.projectsContainer}>
-    <Project
+      <Project
+        projectname="Java Todo"
+        mockup={jt}
+        excerpt="A todo app built with a java Spring Boot restful API and a Material-UI React frontend"
+        siteUrl="http://3.145.1.248:8080/#/"
+        githubUrl="https://github.com/parryk303/Todo"
+        techImgs={[reactImg, muiImg, nodeImg, javaImg, mysqlImg, springImg,awsImg ]}
+      />
+      <hr className={styles.projectHR} />
+      <Project
         projectname="Breath of Fresh AirBNB"
         mockup={bofa}
         excerpt="AirBNB UX emulation deployed to AWS"
@@ -121,7 +134,7 @@ export default () => (
         excerpt="A Twitter jQuery emulation with a Victorian Era theme"
         siteUrl="https://victorian-twitter.herokuapp.com/"
         githubUrl="https://github.com/parryk303/Victorian-Twitter"
-        techImgs={[ jqueryImg, herokuImg ]}
+        techImgs={[jqueryImg, herokuImg]}
       />
       <hr className={styles.projectHR} />
       <Project

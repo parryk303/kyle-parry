@@ -21,4 +21,7 @@ export { default as graphQLImg } from './graphQL.png'
 export { default as cassandraImg } from './cassandra.png'
 export { default as datastaxImg } from './datastax.png'
 export { default as netlifyImg } from './netlify.png'
-
+export { default as muiImg } from './mui.png'
+export { default as javaImg } from './java.png'
+export { default as springImg } from './spring.png'
+export { default as mysqlImg } from './mysql.png'

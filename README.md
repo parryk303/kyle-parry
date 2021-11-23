@@ -9,5 +9,6 @@ For an overview of the project structure please refer to the [Gatsby documentati
 ```
 npm install
 ```
+```
 npm run develop
 ```

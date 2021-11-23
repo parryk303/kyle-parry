@@ -7,8 +7,6 @@ For an overview of the project structure please refer to the [Gatsby documentati
 # Set Up Commands
 > Run the following commands from the root
 ```
-From root run
-```sh
 npm install
 ```
 npm run develop

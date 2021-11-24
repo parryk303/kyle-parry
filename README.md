@@ -1,6 +1,8 @@
 # Kyle Parry
 Kyle Parry's portfolio built with Gatsby.
 
+![Kyle Parry](./preview.png)
+
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
 

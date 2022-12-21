@@ -21,6 +21,7 @@ import {
   browserImg,
   diplomaImg,
   hrCert,
+  securonix,
 } from '../images/resume'
 
 import { chevronWhite } from '../images'
@@ -48,9 +49,8 @@ const ResumeItem = props => {
   return (
     <div className={`${styles.cdTimelineBlock} jsCdBlock`}>
       <div
-        className={`${styles.cdTimelineImg} ${
-          styles.cdTimelineImgPicture
-        } jsCdImg`}
+        className={`${styles.cdTimelineImg} ${styles.cdTimelineImgPicture
+          } jsCdImg`}
       >
         <img src={props.timelineIcon} alt="Picture" />
       </div>
@@ -100,7 +100,21 @@ export default () => (
       </div>
       <div className={styles.cdTimelineContainer}>
 
-      <ResumeItem
+        <ResumeItem
+          id="securonix"
+          jobTitle="Cybersecurity Research and Development Engineer"
+          dates="Feb 22, 2022"
+          descriptions={[
+            'Developed various internal and external web applications for the Securonix Cyberfusion team, from initial ideas to enterprise product sold to Securonix customers and utilized by company cybersecurity analysts',
+            'Maintained company AWS server and applications following best practices for security, storage and resource management',
+            'Implemented a company training video application modeled on Netflix and Amazon Prime UI',
+            'Designed streamlined interfaces in using React and Next.js integrated with Flask Python and Node.js backends',
+          ]}
+          logo={securonix}
+          timelineIcon={browserImg}
+        />
+
+        <ResumeItem
           id="aws"
           jobTitle="AWS Certified Cloud Practitioner"
           dates="May 27, 2021"

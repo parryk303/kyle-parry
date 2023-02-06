@@ -118,7 +118,7 @@ export default () => (
         projectname="Breath of Fresh AirBNB"
         mockup={bofa}
         excerpt="AirBNB UX emulation deployed to AWS"
-        siteUrl="http://3.144.160.238:4000/"
+        siteUrl="http://ec2-18-116-64-207.us-east-2.compute.amazonaws.com:4000/"
         githubUrl="https://github.com/parryk303/Breath-of-Fresh-AirBNB"
         techImgs={[reactImg, nodeImg, mongoImg, bootstrapImg, awsImg, dockerImg]}
       />

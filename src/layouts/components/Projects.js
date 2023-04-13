@@ -99,7 +99,7 @@ export default () => (
     <Project
         projectname="Insider Threat Security Assessment"
         mockup={itsa}
-        excerpt="Insider Threat Assessment Tool created for Securonix"
+        excerpt="Assessment Tool created for collecting data and onboarding new clients into the Securonix Insider Threat Program"
         siteUrl="https://itsa_cyberfusion.securonix.net/"
         techImgs={[reactImg, next, muiImg, mongoImg, awsImg]}
         githubUrl={null}

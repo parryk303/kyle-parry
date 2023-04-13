@@ -28,11 +28,11 @@ const About = () => (
         <div className={styles.techStack}>
           <div>
             <h3>Front-End</h3>
-            <h4>JavaScript • React • Redux • HTML5 • CSS3 • Bootstrap • Material-UI • Gatsby • Java</h4>
+            <h4>JavaScript • React • Redux • HTML5 • CSS3 • Material-UI • Bootstrap • Gatsby • Next.js</h4>
           </div>
           <div>
             <h3>Back-End</h3>
-            <h4>Node • Express • Docker • MySQL • PostgreSQL • GraphQL • MongoDB • AWS • Spring Boot </h4>
+            <h4>Python • Node • Java • MySQL • PostgreSQL • GraphQL • MongoDB • AWS • Spring Boot </h4>
           </div>
         </div>
 

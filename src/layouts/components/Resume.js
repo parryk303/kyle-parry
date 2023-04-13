@@ -140,9 +140,8 @@ export default () => (
           companyName="Vail Resorts"
           jobTitle="Ski Instructor"
           department="Keystone"
-          dates="Nov 2010 - Apil 2021"
+          dates="Nov 2010 - April 2023"
           descriptions={[
-            'Ranked #1 in instructor priority list for Keystone Resort driving company value',
             'Customized private lessons for families around the world',
             'Trainer and mentor for new hire instructors',
             'Led monthly meetings focused on safety, guest satisfaction and class progressions',
@@ -200,7 +199,7 @@ export default () => (
         <ResumeItem
           id="rl"
           companyName="Ralph Lauren"
-          jobTitle="Sales Assosiate"
+          jobTitle="Sales Associate"
           department="Silverthorne Store 227"
           dates="Nov 2010 - May 2016"
           descriptions={[

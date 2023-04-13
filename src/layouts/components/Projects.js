@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import styles from './Projects.module.css'
 import Container from './'
 
-import { vt, cr, ct, bofa, nf, jt, jarvis } from '../images/projects'
+import { vt, cr, ct, bofa, nf, jt, jarvis, itsa } from '../images/projects'
 
 import { chevronBlack } from '../images'
 
@@ -96,6 +96,15 @@ export default () => (
       </a>
     </div>
     <div className={styles.projectsContainer}>
+    <Project
+        projectname="Insider Threat Security Assessment"
+        mockup={itsa}
+        excerpt="Insider Threat Assessment Tool created for Securonix"
+        siteUrl="https://itsa_cyberfusion.securonix.net/"
+        techImgs={[reactImg, next, muiImg, mongoImg, awsImg]}
+        githubUrl={null}
+      />
+      <hr className={styles.projectHR} />
       <Project
         projectname="Jarvis"
         mockup={jarvis}

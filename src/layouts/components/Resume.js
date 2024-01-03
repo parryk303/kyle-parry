@@ -100,6 +100,17 @@ export default () => (
       </div>
       <div className={styles.cdTimelineContainer}>
 
+      <ResumeItem
+          id="ringcentral"
+          jobTitle="Solutions Developer"
+          dates="Feb 22, 2022"
+          // descriptions={[
+          //   'Coming Soon',
+          // ]}
+          logo={ringcentral}
+          timelineIcon={browserImg}
+        />
+
         <ResumeItem
           id="securonix"
           jobTitle="Cybersecurity Research and Development Engineer"

@@ -14,15 +14,16 @@ const About = () => (
       </div>
 
       <div className={styles.aboutText}>
-        <h2>I'm Kyle Parry, a teacher turned full-stack engineer.</h2>
+  
+        <h2>I'm Kyle Parry, am educator turned full-stack engineer.</h2>
         <h4>
-          After developing my education skills as a ski instructor and elementary school teacher for several years, the urge to switch careers and dive further into tech grew too strong to ignore.
+          I'm Kyle Parry—a former ski instructor and elementary school teacher who traded the slopes and classrooms for lines of code and algorithmic challenges. In the midst of the global pandemic in July 2020, I seized the opportunity to redefine my path and fully immerse myself in the dynamic world of full-stack engineering.
         </h4>
         <h4>
-          In July 2020 in the midst of the global pandemic, I left the security and stability I had always known to focus solely on honing and growing my programming skills.
+          Fueled by an unwavering passion for innovation, I ventured beyond the familiar, leaving behind the security of my previous roles to embrace the excitement of uncertainty. This marked the beginning of a relentless pursuit to master the intricacies of programming and cultivate a deeper understanding of technology's transformative power.
         </h4>
         <h4>
-          I am dedicated to growing stronger as an engineer everyday. I am always looking for new opportunities to hone my skills and learn new ones. I have loved every step of my journey into tech and I’m excited to see who I’ll have the chance to meet next.
+          Committed to a perpetual cycle of growth, I approach each day as an opportunity to refine my skills and evolve as an engineer. I thrive on challenges, actively seeking new avenues to expand my knowledge and skill set. Every twist and turn in my tech journey has been a source of fulfillment, and I eagerly anticipate the connections and opportunities that await on this thrilling expedition.
         </h4>
 
         <div className={styles.techStack}>

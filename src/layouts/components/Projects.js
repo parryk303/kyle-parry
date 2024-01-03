@@ -114,42 +114,42 @@ export default () => (
         githubUrl={null}
       />
       <hr className={styles.projectHR} />
-      <Project
-        projectname="Java Todo"
-        mockup={jt}
-        excerpt="A todo app built with a java Spring Boot restful API and a Material-UI React frontend"
-        siteUrl="http://3.145.1.248:8080/#/"
-        githubUrl="https://github.com/parryk303/Todo"
-        techImgs={[reactImg, muiImg, nodeImg, javaImg, mysqlImg, springImg, awsImg]}
-      />
-      <hr className={styles.projectHR} />
-      <Project
-        projectname="Breath of Fresh AirBNB"
-        mockup={bofa}
-        excerpt="AirBNB UX emulation deployed to AWS"
-        siteUrl="http://ec2-18-116-64-207.us-east-2.compute.amazonaws.com:4000/"
-        githubUrl="https://github.com/parryk303/Breath-of-Fresh-AirBNB"
-        techImgs={[reactImg, nodeImg, mongoImg, bootstrapImg, awsImg, dockerImg]}
-      />
-      <hr className={styles.projectHR} />
-      <Project
-        projectname="Notflix"
-        mockup={nf}
-        excerpt="A Netflix clone built using a GraphQL API via Datastax AstraDB"
-        siteUrl="https://optimistic-lumiere-93306f.netlify.app/"
-        githubUrl="https://github.com/parryk303/netflix-clone"
-        techImgs={[reactImg, nodeImg, graphQLImg, cassandraImg, datastaxImg, netlifyImg]}
-      />
-      {/* <hr className={styles.projectHR} />
-      <Project
-        projectname="Crypto Tracker"
-        mockup={ct}
-        excerpt="An auto updating Bitcoin price tracker"
-        siteUrl="https://crypto-tracker-tool.herokuapp.com/"
-        githubUrl="https://github.com/parryk303/Crypto-Tracker-Tool"
-        techImgs={[reactImg, nodeImg]}
-      /> */}
-      <hr className={styles.projectHR} />
+      // <Project
+      //   projectname="Java Todo"
+      //   mockup={jt}
+      //   excerpt="A todo app built with a java Spring Boot restful API and a Material-UI React frontend"
+      //   siteUrl="http://3.145.1.248:8080/#/"
+      //   githubUrl="https://github.com/parryk303/Todo"
+      //   techImgs={[reactImg, muiImg, nodeImg, javaImg, mysqlImg, springImg, awsImg]}
+      // />
+      // <hr className={styles.projectHR} />
+      // <Project
+      //   projectname="Breath of Fresh AirBNB"
+      //   mockup={bofa}
+      //   excerpt="AirBNB UX emulation deployed to AWS"
+      //   siteUrl="http://ec2-18-116-64-207.us-east-2.compute.amazonaws.com:4000/"
+      //   githubUrl="https://github.com/parryk303/Breath-of-Fresh-AirBNB"
+      //   techImgs={[reactImg, nodeImg, mongoImg, bootstrapImg, awsImg, dockerImg]}
+      // />
+      // <hr className={styles.projectHR} />
+      // <Project
+      //   projectname="Notflix"
+      //   mockup={nf}
+      //   excerpt="A Netflix clone built using a GraphQL API via Datastax AstraDB"
+      //   siteUrl="https://optimistic-lumiere-93306f.netlify.app/"
+      //   githubUrl="https://github.com/parryk303/netflix-clone"
+      //   techImgs={[reactImg, nodeImg, graphQLImg, cassandraImg, datastaxImg, netlifyImg]}
+      // />
+      //    <hr className={styles.projectHR} />
+      // <Project
+      //   projectname="Crypto Tracker"
+      //   mockup={ct}
+      //   excerpt="An auto updating Bitcoin price tracker"
+      //   siteUrl="https://crypto-tracker-tool.herokuapp.com/"
+      //   githubUrl="https://github.com/parryk303/Crypto-Tracker-Tool"
+      //   techImgs={[reactImg, nodeImg]}
+      // />
+      // <hr className={styles.projectHR} />
       <Project
         projectname="Victorian Twitter"
         mockup={vt}
@@ -158,15 +158,15 @@ export default () => (
         githubUrl="https://github.com/parryk303/Victorian-Twitter"
         techImgs={[jqueryImg, herokuImg]}
       />
-      {/* <hr className={styles.projectHR} /> */}
-      {/* <Project
-        projectname="Coffee Roulette"
-        mockup={cr}
-        excerpt="A promotional coffee randomizer app"
-        siteUrl="https://coffee-roulette-kp.herokuapp.com/"
-        githubUrl="https://github.com/parryk303/Coffee-Roulette"
-        techImgs={[reactImg, nodeImg, postgresqlImg, bootstrapImg, herokuImg]}
-      /> */}
+          <hr className={styles.projectHR} />
+      // <Project
+      //   projectname="Coffee Roulette"
+      //   mockup={cr}
+      //   excerpt="A promotional coffee randomizer app"
+      //   siteUrl="https://coffee-roulette-kp.herokuapp.com/"
+      //   githubUrl="https://github.com/parryk303/Coffee-Roulette"
+      //   techImgs={[reactImg, nodeImg, postgresqlImg, bootstrapImg, herokuImg]}
+      // />
     </div>
   </div>
 )

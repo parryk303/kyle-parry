@@ -104,7 +104,7 @@ export default () => (
       <ResumeItem
           id="ringcentral"
           jobTitle="Solutions Developer"
-          dates="Feb 22, 2022"
+          dates="May 15, 2023"
           // descriptions={[
           //   'Coming Soon',
           // ]}
@@ -115,7 +115,7 @@ export default () => (
         <ResumeItem
           id="securonix"
           jobTitle="Cybersecurity Research and Development Engineer"
-          dates="Feb 22, 2022"
+          dates="Feb 22, 2022 - May 15, 2023"
           descriptions={[
             'Developed various internal and external web applications for the Securonix Cyberfusion team, from initial ideas to enterprise product sold to Securonix customers and utilized by company cybersecurity analysts',
             'Maintained company AWS server and applications following best practices for security, storage and resource management',

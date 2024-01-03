@@ -22,6 +22,7 @@ import {
   diplomaImg,
   hrCert,
   securonix,
+  ringcentral,
 } from '../images/resume'
 
 import { chevronWhite } from '../images'

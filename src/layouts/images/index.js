@@ -1,5 +1,5 @@
 export { default as chevronWhite } from './chevronWhite.png'
 export { default as chevronBlack } from './chevronBlack.png'
+export { default as turntable } from './turntable.jpg'
 export { default as river } from './river.jpg'
 export { default as kyle } from './kyle.jpg'
-export { default as turntable } from './turntable.jpg'

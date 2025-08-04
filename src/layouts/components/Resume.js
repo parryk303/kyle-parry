@@ -1,33 +1,27 @@
-import React from 'react'
-import Link from 'gatsby-link'
 
+import { chevronWhite } from '../images'
 import styles from './Resume.module.css'
-import Container from './'
-
 import {
+  KeystoneLodgeSpa,
+  ringcentral,
+  awsccpCert,
+  browserImg,
+  diplomaImg,
+  securonix,
+  keystone,
+  school,
+  hrCert,
+  shop,
+  unc,
+  hps,
+  aws,
   cu,
   hr,
   rl,
   tl,
-  unc,
-  hps,
-  aws,
-  awsccpCert,
   mt,
-  shop,
-  school,
-  keystone,
-  KeystoneLodgeSpa,
-  browserImg,
-  diplomaImg,
-  hrCert,
-  securonix,
-  ringcentral,
 } from '../images/resume'
-
-import { chevronWhite } from '../images'
-
-import { resume } from '../../kparryResume.pdf'
+import React from 'react'
 
 let marginY = 0
 let destination = 0
@@ -105,9 +99,12 @@ export default () => (
           id="ringcentral"
           jobTitle="Solutions Developer"
           dates="May 15, 2023"
-          // descriptions={[
-          //   'Coming Soon',
-          // ]}
+          descriptions={[
+            'Developed and deployed an Android application used by all WM trash trucks across the U.S. and Canada.',
+            'Delivered multiple CRM integrations to support RingCentral’s call center operations across enterprise clients.',
+            'Designed and implemented a cloud relay provisioning platform that reduced deployment time from over four weeks to under ten minutes.',
+            'Served as Development Lead for multiple projects, managing and mentoring a remote team of third-party developers in India.',
+          ]}
           logo={ringcentral}
           timelineIcon={browserImg}
         />

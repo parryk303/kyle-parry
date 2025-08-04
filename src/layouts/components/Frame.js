@@ -1,9 +1,5 @@
-import React from 'react'
-import Link from 'gatsby-link'
 import styles from './Frame.module.css'
-import Container from './'
-
-import { turntable } from '../images'
+import React from 'react'
 
 let marginY = 0
 let destination = 0

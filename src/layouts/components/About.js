@@ -1,8 +1,6 @@
-import React from 'react'
 import styles from './About.module.css'
-
 import { kyle } from '../images'
-import { concert, realmadrid, plane } from '../images/extra'
+import React from 'react'
 
 const About = () => (
   <div className={styles.about}>
@@ -13,7 +11,7 @@ const About = () => (
         <img src={kyle} alt="" />
       </div>
 
-      <div className={styles.aboutText}>
+      {/* <div className={styles.aboutText}>
   
         <h2>I'm Kyle Parry, am educator turned full-stack engineer.</h2>
         <h4>
@@ -37,7 +35,46 @@ const About = () => (
           </div>
         </div>
 
-      </div>
+      </div> */}
+
+<div className={styles.aboutText}>
+  <h2>I'm Kyle Parry, a full-stack engineer and former educator.</h2>
+
+  <h4>
+    I lead and build scalable software solutions that solve real-world problems. In my current role at RingCentral, I serve as both a Solutions Developer and Development Lead, delivering internal and customer-facing applications at scale.
+  </h4>
+
+  <ul>
+    <li>
+    Led the development of an Android application rolled out to Waste Management, Inc.’s entire North American fleet, standardizing mobile operations across the U.S. and Canada.
+    </li>
+    <li>
+      Delivered multiple CRM integrations to support RingCentral’s call center operations across enterprise clients.
+    </li>
+    <li>
+      Designed and implemented a cloud relay provisioning platform that reduced deployment time from over four weeks to under ten minutes.
+    </li>
+    <li>
+      Managed and mentored a remote team of third-party developers in India as Development Lead on several projects.
+    </li>
+  </ul>
+
+  <h4>
+    Before entering tech in 2020, I worked as a ski instructor and elementary teacher—roles that sharpened my communication, adaptability, and mentoring skills. I now bring those strengths to engineering teams, blending hands-on development with collaborative leadership.
+  </h4>
+
+  <div className={styles.techStack}>
+    <div>
+      <h3>Front-End</h3>
+      <h4>TypeScript • React • Redux • Material-UI • Bootstrap • Gatsby • Next.js</h4>
+    </div>
+    <div>
+      <h3>Back-End</h3>
+      <h4>Python • Node • Java • MySQL • PostgreSQL • GraphQL • MongoDB • AWS • Spring Boot</h4>
+    </div>
+  </div>
+</div>
+
 
     </div>
 

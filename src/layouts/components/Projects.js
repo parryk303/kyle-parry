@@ -1,32 +1,27 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import styles from './Projects.module.css'
-import Container from './'
-
 import { vt, cr, ct, bofa, nf, jt, jarvis, itsa } from '../images/projects'
-
+import styles from './Projects.module.css'
 import { chevronBlack } from '../images'
-
+import React from 'react'
 import {
-  reactImg,
-  bootstrapImg,
-  firebaseImg,
   googlemapsImg,
-  herokuImg,
-  nodeImg,
   postgresqlImg,
-  mongoImg,
-  awsImg,
+  bootstrapImg,
+  cassandraImg,
+  firebaseImg,
+  datastaxImg,
+  graphQLImg,
+  netlifyImg,
+  herokuImg,
   dockerImg,
   jqueryImg,
-  graphQLImg,
-  cassandraImg,
-  datastaxImg,
-  netlifyImg,
-  muiImg,
-  javaImg,
   springImg,
+  reactImg,
+  mongoImg,
   mysqlImg,
+  nodeImg,
+  javaImg,
+  awsImg,
+  muiImg,
   coreui,
   next,
 } from '../images/tech'
@@ -73,9 +68,11 @@ const Project = props => {
           </div>
         </div>
         <div className={styles.linksContainer}>
-          <a href={props.siteUrl} target="_blank" rel="noopener noreferrer">
-            Visit
-          </a>
+          {props.siteUrl && (
+            <a href={props.siteUrl} target="_blank" rel="noopener noreferrer">
+              Visit
+            </a>
+          )}
           {props.githubUrl && (
             <a href={props.githubUrl} target="_blank" rel="noopener noreferrer">
               GitHub
@@ -100,7 +97,7 @@ export default () => (
         projectname="Insider Threat Security Assessment"
         mockup={itsa}
         excerpt="Assessment Tool created for collecting data and onboarding new clients into the Securonix Insider Threat Program"
-        siteUrl="https://itsa_cyberfusion.securonix.net/"
+        siteUrl={null}
         techImgs={[reactImg, next, muiImg, mongoImg, awsImg]}
         githubUrl={null}
       />
@@ -114,35 +111,7 @@ export default () => (
         githubUrl={null}
       />
       <hr className={styles.projectHR} />
-      {/* Commented-out projects */}
-      {/* <Project
-        projectname="Java Todo"
-        mockup={jt}
-        excerpt="A todo app built with a java Spring Boot restful API and a Material-UI React frontend"
-        siteUrl="http://3.145.1.248:8080/#/"
-        githubUrl="https://github.com/parryk303/Todo"
-        techImgs={[reactImg, muiImg, nodeImg, javaImg, mysqlImg, springImg, awsImg]}
-      />
-      <hr className={styles.projectHR} />
-      <Project
-        projectname="Breath of Fresh AirBNB"
-        mockup={bofa}
-        excerpt="AirBNB UX emulation deployed to AWS"
-        siteUrl="http://ec2-18-116-64-207.us-east-2.compute.amazonaws.com:4000/"
-        githubUrl="https://github.com/parryk303/Breath-of-Fresh-AirBNB"
-        techImgs={[reactImg, nodeImg, mongoImg, bootstrapImg, awsImg, dockerImg]}
-      />
-      <hr className={styles.projectHR} />
-      <Project
-        projectname="Notflix"
-        mockup={nf}
-        excerpt="A Netflix clone built using a GraphQL API via Datastax AstraDB"
-        siteUrl="https://optimistic-lumiere-93306f.netlify.app/"
-        githubUrl="https://github.com/parryk303/netflix-clone"
-        techImgs={[reactImg, nodeImg, graphQLImg, cassandraImg, datastaxImg, netlifyImg]}
-      />
-      <hr className={styles.projectHR} /> */}
-      {/* End of commented-out projects */}
+    
       <Project
         projectname="Victorian Twitter"
         mockup={vt}
@@ -152,14 +121,6 @@ export default () => (
         techImgs={[jqueryImg, herokuImg]}
       />
       <hr className={styles.projectHR} />
-      {/* <Project
-        projectname="Coffee Roulette"
-        mockup={cr}
-        excerpt="A promotional coffee randomizer app"
-        siteUrl="https://coffee-roulette-kp.herokuapp.com/"
-        githubUrl="https://github.com/parryk303/Coffee-Roulette"
-        techImgs={[reactImg, nodeImg, postgresqlImg, bootstrapImg, herokuImg]}
-      /> */}
     </div>
   </div>
 )

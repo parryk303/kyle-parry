@@ -1,7 +1,6 @@
-import React from 'react'
-import styles from './Extra.module.css'
-
 import { fishing, skiing, plane, fathering } from '../images/extra'
+import styles from './Extra.module.css'
+import React from 'react'
 
 const Extra = () => (
   <div className={styles.aboutExtra}>

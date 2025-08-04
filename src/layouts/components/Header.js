@@ -1,8 +1,7 @@
-import React from 'react'
-import Link from 'gatsby-link'
 import styles from './Header.module.css'
 import river from '../images/river.jpg'
 import { Container } from './'
+import React from 'react'
 
 let marginY = 0
 let destination = 0

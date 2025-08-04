@@ -1,10 +1,8 @@
-import React from 'react'
+import { Header, About, Extra, Projects, Resume, Frame, Footer } from './components'
+import preview from './preview.png'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import preview from './preview.png'
-
-import { Header, About, Extra, Projects, Resume, Frame, Footer } from './components'
-
+import React from 'react'
 import './index.css'
 
 const Layout = ({ children, data }) => (
